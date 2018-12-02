@@ -3,8 +3,8 @@
 from functions import *
 import time
 
-Lvl=100
-XP=0
+Lvl=getLevel()
+XP=getXP()
 #Default Dict if we don't load one
 PokeDict = [
       { "level": 1, "name": "Bulbasaur", "health": 200, "attack": 8, "description": "The Grass Pokemon" },

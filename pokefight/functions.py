@@ -9,8 +9,17 @@ import json
 
 #Variables
 #TODO pass the vars in functions from the pokefight2.py menu
-Lvl=100
-XP=0 
+def getLevel():
+    level=1
+    return level
+
+def getXP():
+    XP=0
+    return XP
+ 
+Lvl=getLevel()
+XP=getXP()
+
 #The amount of xp to level up will increase by each level. Xp will need to be put into another file to save it.
 
 def fight(health,attack):
