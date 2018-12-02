@@ -5,6 +5,7 @@
 import time
 import random
 import sys
+import json
 
 #Variables
 
@@ -39,13 +40,15 @@ def LoadPokedex():
 
 def SavePokedex():
     print("Saving Pokedex...")
+    with open("PokeDict.json", "w") as write_file:
+        json.dump(PokeDict, write_file, indent=4)
     time.sleep(3)
     return
 
 def SelectOpponent():
     print ("Here you will choose your Pokemon")
 
-    print ("-"*40)
+    print ("-"*30)
     time.sleep(0.3)
 
     #generate list for your level
@@ -56,11 +59,8 @@ def SelectOpponent():
 
     #print menu from  (choices)
     for idx, li in enumerate(choices):
-        print ("For",li['name'], " - ",li['description'],"- Health:",li['health'],"Attack:",li['attack'], " - Press ",idx )
-        print ("-"*20)
-        time.sleep(0.1)
-
-        print ("-"*40)
+        print (idx,") ",bcolors.BOLD+li['name'],bcolors.ENDC+" - ",li['description'],"\n    Health:",li['health'],"Attack:",li['attack'])
+        print ("-"*30)
 
     #make choice and check it is valid
     while True:
@@ -134,3 +134,13 @@ def SelectOpponent():
 
     print (rounds,"rounds")
     print ("Your Health is",MyPokemonHealth,"Your Opponents Health is",EnemyPokemonHealth)
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
