@@ -8,7 +8,7 @@ import sys
 import json
 
 #Variables
-
+#TODO pass the vars in functions from the pokefight2.py menu
 Lvl=100
 XP=0 
 #The amount of xp to level up will increase by each level. Xp will need to be put into another file to save it.
@@ -28,10 +28,6 @@ def LoadPokedex():
     print("Loading opponent file...")
     with open("PokeDict2.json", "r") as read_file:
          PokeDict = json.load(read_file)
-   # with open('PokeDict2.json', 'r') as fp:
-   #     PokeDict = json.load(fp)
-   # with open('PokeDict2.json') as handle:
-   #    PokeDict = json.loads(handle.read())
     time.sleep(2)
     return PokeDict
 
@@ -39,7 +35,7 @@ def SavePokedex(PokeDict):
     print("Saving Pokedex...")
     with open("PokeDict.json", "w") as write_file:
         json.dump(PokeDict, write_file, indent=4)
-    time.sleep(3)
+    time.sleep(2)
     return
 
 def SelectOpponent(PokeDict):

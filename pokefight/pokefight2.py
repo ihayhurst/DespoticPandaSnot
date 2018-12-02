@@ -14,6 +14,7 @@ PokeDict = [
       { "level": 3, "name": "Charmelion", "health": 220, "attack": 13, "description": "The Evoled Fire Pokemon"},
       { "level": 3, "name": "Wartortle", "health": 230, "attack": 12, "description": "The Evolved Water Pokemon"},
 ]
+
 ## --- Main Prog start --- ##
 print ("Welcome to the pokemon fighting simulator!")
 time.sleep(1)
