@@ -1,0 +1,507 @@
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+        "image": {
+      "@type": "ImageObject",
+      "url": "https://img.buzzfeed.com/buzzfeed-static/static/2016-06/17/7/campaign_images/buzzfeed-prod-web08/52-movies-that-are-so-clever-theyll-have-you-thin-2-2115-1466162715-0_dblbig.jpg",
+      "height": 625,
+      "width": 415
+    },    "itemListElement":[
+                      {
+          "@type":"ListItem",
+          "position":1,
+          "item": {
+            "@type" : "Thing",
+            "name":"We asked members of the &lt;a href=&quot;https://www.facebook.com/BuzzfeedCommunity?ref=br_tf&quot;&gt;BuzzFeed Community&lt;/a&gt; to tell us &lt;a href=&quot;https://www.buzzfeed.com/kimberleydadds/what-movies-actually-make-you-think?utm_term=.pdPEezqVl#.rnbEb7rjl&quot;&gt;what movies actually make them think&lt;/a&gt;, you know, the ones that stay in your head for days long after they've finished. Here are some of their best answers.",
+            "image":"https://img.buzzfeed.com/buzzfeed-static",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8904007"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":2,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Requiem for a Dream&lt;/i&gt; (2000)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-12733-1466003586-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895050"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":3,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Eternal Sunshine of the Spotless Mind&lt;/i&gt; (2004)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane02/sub-buzz-5511-1466000930-1.jpg?resize=625:410",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894352"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":4,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Predestination&lt;/i&gt; (2014)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane02/sub-buzz-6418-1466001403-10.jpg?resize=625:416",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894492"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":5,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Being John Malkovich&lt;/i&gt; (1999)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane03/sub-buzz-18347-1466001691-1.jpg?resize=625:417",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894561"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":6,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Life of Pi&lt;/i&gt; (2012)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane03/sub-buzz-19574-1466070886-3.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903728"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":7,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Donnie Darko&lt;/i&gt; (2001)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane01/sub-buzz-6312-1466070315-4.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903617"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":8,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Contagion&lt;/i&gt; (2011)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane01/sub-buzz-8304-1466001931-5.jpg",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894782"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":9,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Karate Kid&lt;/i&gt; (2010)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane03/sub-buzz-11866-1466001212-15.jpg?resize=625:416",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894396"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":10,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Equilibrium&lt;/i&gt; (2002)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-9593-1466003447-3.jpg?resize=625:417",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895012"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":11,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Interstellar&lt;/i&gt; (2014)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-10626-1466003260-1.png?resize=625:417",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894985"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":12,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Truman Show&lt;/i&gt; (1998)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane01/sub-buzz-7587-1466000994-2.png?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894359"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":13,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Exam&lt;/i&gt; (2009)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane02/sub-buzz-8082-1466001166-1.jpg?resize=625:265",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894383"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":14,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Matrix&lt;/i&gt; (1999)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-12688-1466003512-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895028"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":15,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Looper&lt;/i&gt; (2012)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane03/sub-buzz-18374-1466001727-1.jpg?resize=625:410",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894574"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":16,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Ex Machina&lt;/i&gt; (2015)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane02/sub-buzz-17817-1466069896-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903589"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":17,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Breaking the Waves&lt;/i&gt; (1996)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane03/sub-buzz-17056-1466001357-1.jpg",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894482"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":18,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Metropolis&lt;/i&gt; (1927)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane01/sub-buzz-8904-1466001569-3.jpg?resize=625:391",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894549"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":19,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;V for Vendetta&lt;/i&gt; (2006)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane02/sub-buzz-8138-1466001867-14.jpg?resize=625:409",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894599"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":20,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Eden Lake&lt;/i&gt; (2008)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane01/sub-buzz-8285-1466001788-19.jpg?resize=625:375",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894586"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":21,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Cloud Atlas&lt;/i&gt; (2012)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane02/sub-buzz-20802-1466004087-2.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895222"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":22,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Never Let Me Go&lt;/i&gt; (2010)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-10226-1466002919-2.jpg?resize=625:382",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894803"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":23,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Prestige&lt;/i&gt; (2006)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-9485-1466003020-14.jpg?resize=625:338",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894826"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":24,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Whatever Happened to Baby Jane?&lt;/i&gt; (1962)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/10/asset/buzzfeed-prod-fastlane02/sub-buzz-7715-1466001470-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894518"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":25,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Memento&lt;/i&gt; (2000)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane03/sub-buzz-24865-1466003630-3.png?resize=625:349",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895068"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":26,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Performance&lt;/i&gt; (1970)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane03/sub-buzz-24891-1466003714-6.jpg?resize=625:409",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895085"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":27,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Social Network&lt;/i&gt; (2010)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-14813-1466004924-23.jpg?resize=625:402",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895544"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":28,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Gone Baby Gone&lt;/i&gt; (2007)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-14835-1466005106-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895579"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":29,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Possession&lt;/i&gt; (1981)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane03/sub-buzz-24953-1466003816-11.png",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895101"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":30,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Perfume: The Story of a Murderer&lt;/i&gt; (2006)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane02/sub-buzz-22962-1466004710-1.jpg?resize=625:415",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895341"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":31,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Girl, Interrupted&lt;/i&gt; (1999)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane03/sub-buzz-19574-1466071049-6.jpg",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903742"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":32,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Pan's Labyrinth&lt;/i&gt; (2006)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane02/sub-buzz-23540-1466005748-1.png?resize=625:415",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895681"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":33,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Beach&lt;/i&gt; (2000)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane02/sub-buzz-17701-1466070382-1.jpg",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903625"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":34,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Thirteen&lt;/i&gt; (2003)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane02/sub-buzz-23572-1466006193-2.jpg?resize=625:414",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895790"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":35,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Amélie&lt;/i&gt; (2001)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane03/sub-buzz-19424-1466071748-8.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903813"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":36,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Before I Go to Sleep&lt;/i&gt; (2014)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane01/sub-buzz-14815-1466005173-19.jpg?resize=625:416",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895597"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":37,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Fountain&lt;/i&gt; (2006)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/15/11/asset/buzzfeed-prod-fastlane03/sub-buzz-24878-1466003126-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8894939"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":38,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;American Beauty&lt;/i&gt; (1999)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane03/sub-buzz-19574-1466070016-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903600"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":39,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Being There&lt;/i&gt; (1979)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane01/sub-buzz-6403-1466070107-2.jpg?resize=625:364",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903605"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":40,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Inception&lt;/i&gt; (2010)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane01/sub-buzz-7050-1466070665-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903700"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":41,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Skin I Live In&lt;/i&gt; (2011)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane02/sub-buzz-18051-1466070192-1.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903609"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":42,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Eat Pray Love&lt;/i&gt; (2010)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane02/sub-buzz-17812-1466070446-1.jpg?resize=625:416",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903632"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":43,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;2001: A Space Odyssey&lt;/i&gt; (1968)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane03/sub-buzz-19262-1466070803-5.jpg",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903720"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":44,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Virgin Suicides&lt;/i&gt; (1999)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/5/asset/buzzfeed-prod-fastlane01/sub-buzz-7096-1466071170-1.jpg?resize=625:353",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903751"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":45,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;We Need to Talk About Kevin&lt;/i&gt; (2011)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane01/sub-buzz-6306-1466071285-1.jpg?resize=625:417",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903758"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":46,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Natural Born Killers&lt;/i&gt; (1994)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane02/sub-buzz-17812-1466071477-4.jpg?resize=625:420",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903787"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":47,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Gone Girl&lt;/i&gt; (2014)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane01/sub-buzz-7445-1466072357-3.jpg?resize=625:313",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903857"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":48,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Shutter Island&lt;/i&gt; (2010)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane01/sub-buzz-6387-1466071595-15.jpg?resize=625:331",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903809"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":49,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Usual Suspects&lt;/i&gt; (1995)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane03/sub-buzz-19609-1466072186-17.jpg?resize=625:351",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903847"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":50,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Silver Linings Playbook&lt;/i&gt; (2012)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane03/sub-buzz-19967-1466071835-2.jpg?resize=625:468",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903816"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":51,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Where the Wild Things Are&lt;/i&gt; (2009)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane03/sub-buzz-19931-1466071947-10.jpg?resize=625:351",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903821"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":52,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;Room&lt;/i&gt; (2015)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane02/sub-buzz-17480-1466072009-4.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903831"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":53,
+          "item": {
+            "@type" : "Thing",
+            "name":"&lt;i&gt;The Butterfly Effect&lt;/i&gt; (2004)",
+            "image":"https://img.buzzfeed.com/buzzfeed-static/static/2016-06/16/6/asset/buzzfeed-prod-fastlane03/sub-buzz-19862-1466072069-2.jpg?resize=625:352",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8903836"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":54,
+          "item": {
+            "@type" : "Thing",
+            "name":"",
+            "image":"https://img.buzzfeed.com/buzzfeed-static",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8895331"
+          }
+        }        ,        {
+          "@type":"ListItem",
+          "position":55,
+          "item": {
+            "@type" : "Thing",
+            "name":"Want to be featured in similar posts? Follow the BuzzFeed Community on &lt;a href=&quot;https://www.facebook.com/BuzzfeedCommunity?ref=br_tf&quot;&gt;Facebook&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/BuzzFeeders&quot;&gt;Twitter&lt;/a&gt;!",
+            "image":"https://img.buzzfeed.com/buzzfeed-static",
+            "url":"https://www.buzzfeed.com/kimberleydadds/movies-that-actually-make-you-think?sub=4279259_8904013"
+          }
+        }    ]
+  }
+	
