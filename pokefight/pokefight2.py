@@ -26,7 +26,7 @@ time.sleep(0.3)
 while True:
     try:
         print("1) Load Pokedex from file")
-        print("2) Save Standard Pokedex as template")
+        print("2) Save current Pokedex")
         print("3) Choose your opponent and  Fight!")
         print("4) Exit!")
         choice = int(input('Make Your Choice:'))
@@ -34,7 +34,7 @@ while True:
         if    choice == 1:
             PokeDict=LoadPokedex()
         elif  choice == 2:
-            SavePokedex()
+            SavePokedex(PokeDict)
         elif  choice == 3:
             SelectOpponent(PokeDict)
         elif  choice == 4:
