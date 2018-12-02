@@ -1,0 +1,44 @@
+[
+    {
+        "level": 1,
+        "name": "Norwegian Blue",
+        "health": 200,
+        "attack": 8,
+        "description": "The Alive Parrot"
+    },
+    {
+        "level": 1,
+        "name": "Scarlet Macaw",
+        "health": 160,
+        "attack": 10,
+        "description": "The Undead Parrot"
+    },
+    {
+        "level": 1,
+        "name": "Mr Angry",
+        "health": 180,
+        "attack": 9,
+        "description": "The Neighbour with an grudge"
+    },
+    {
+        "level": 3,
+        "name": "Monsieur Pantalon Venteux",
+        "health": 240,
+        "attack": 11,
+        "description": "The Flatulant Galic chappie in the tower"
+    },
+    {
+        "level": 3,
+        "name": "Brave Sir Robin",
+        "health": 220,
+        "attack": 13,
+        "description": "Showed adversity in the face of courage"
+    },
+    {
+        "level": 3,
+        "name": "The Beast Caerbannog",
+        "health": 230,
+        "attack": 12,
+        "description": "The er... Rabbit?"
+    }
+]

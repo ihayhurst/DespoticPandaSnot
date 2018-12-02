@@ -12,7 +12,7 @@ import json
 Lvl=100
 XP=0 
 #The amount of xp to level up will increase by each level. Xp will need to be put into another file to save it.
-
+'''#Default Dict if we don't load one 
 PokeDict = [
      { "level": 1, "name": "Bulbasaur", "health": 200, "attack": 8, "description": "The Grass Pokemon" },
      { "level": 1, "name": "Charmander", "health": 160, "attack": 10, "description": "The Fire Pokemon" },
@@ -21,7 +21,7 @@ PokeDict = [
      { "level": 3, "name": "Charmelion", "health": 220, "attack": 13, "description": "The Evoled Fire Pokemon"},
      { "level": 3, "name": "Wartortle", "health": 230, "attack": 12, "description": "The Evolved Water Pokemon"},
 ]
-
+'''
 def fight(health,attack):
     damage = 0
     hit=random.randint(0,100)
@@ -35,8 +35,14 @@ def fight(health,attack):
 
 def LoadPokedex():
     print("Loading opponent file...")
-    time.sleep(3)
-    return
+    with open("PokeDict2.json", "r") as read_file:
+         PokeDict = json.load(read_file)
+   # with open('PokeDict2.json', 'r') as fp:
+   #     PokeDict = json.load(fp)
+   # with open('PokeDict2.json') as handle:
+   #    PokeDict = json.loads(handle.read())
+    time.sleep(2)
+    return PokeDict
 
 def SavePokedex():
     print("Saving Pokedex...")
@@ -45,7 +51,7 @@ def SavePokedex():
     time.sleep(3)
     return
 
-def SelectOpponent():
+def SelectOpponent(PokeDict):
     print ("Here you will choose your Pokemon")
 
     print ("-"*30)

@@ -5,6 +5,15 @@ import time
 
 Lvl=100
 XP=0
+#Default Dict if we don't load one
+PokeDict = [
+      { "level": 1, "name": "Bulbasaur", "health": 200, "attack": 8, "description": "The Grass Pokemon" },
+      { "level": 1, "name": "Charmander", "health": 160, "attack": 10, "description": "The Fire Pokemon" },
+      { "level": 1, "name": "Squirtle", "health": 180, "attack": 9, "description": "The Water Pokemon" },
+      { "level": 3, "name": "Ivysaur", "health": 240, "attack": 11, "description": "The Evolved Grass Pokemon" },
+      { "level": 3, "name": "Charmelion", "health": 220, "attack": 13, "description": "The Evoled Fire Pokemon"},
+      { "level": 3, "name": "Wartortle", "health": 230, "attack": 12, "description": "The Evolved Water Pokemon"},
+]
 ## --- Main Prog start --- ##
 print ("Welcome to the pokemon fighting simulator!")
 time.sleep(1)
@@ -23,11 +32,11 @@ while True:
         choice = int(input('Make Your Choice:'))
         print("You selected: ",choice)
         if    choice == 1:
-            LoadPokedex()
+            PokeDict=LoadPokedex()
         elif  choice == 2:
             SavePokedex()
         elif  choice == 3:
-            SelectOpponent()
+            SelectOpponent(PokeDict)
         elif  choice == 4:
             exit()
         else:
