@@ -2,13 +2,12 @@
 
 
 #Modules
-import time
+from time import sleep
 import random
 import sys
 import json
 
 #Variables
-#TODO pass the vars in functions from the pokefight2.py menu
 def getLevel():
     level=1
     return level
@@ -37,21 +36,21 @@ def LoadPokedex():
     print("Loading opponent file...")
     with open("PokeDict2.json", "r") as read_file:
          PokeDict = json.load(read_file)
-    time.sleep(2)
+    sleep(2)
     return PokeDict
 
 def SavePokedex(PokeDict):
     print("Saving Pokedex...")
     with open("PokeDict.json", "w") as write_file:
         json.dump(PokeDict, write_file, indent=4)
-    time.sleep(2)
+    sleep(2)
     return
 
 def SelectOpponent(PokeDict):
     print ("Here you will choose your Pokemon")
 
     print ("-"*30)
-    time.sleep(0.3)
+    sleep(0.3)
 
     #generate list for your level
     choices=[]

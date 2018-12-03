@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from functions import *
-import time
+from time import sleep
 
 Lvl=getLevel()
 XP=getXP()
@@ -17,11 +17,11 @@ PokeDict = [
 
 ## --- Main Prog start --- ##
 print ("Welcome to the pokemon fighting simulator!")
-time.sleep(1)
+sleep(1)
 print ("Your are Level",Lvl)
-time.sleep(0.3)
+sleep(0.3)
 print ("Your XP is:",XP)
-time.sleep(0.3)
+sleep(0.3)
 
 #Main Menu #TODO make menu a function
 while True:
