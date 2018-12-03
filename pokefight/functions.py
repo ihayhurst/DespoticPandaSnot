@@ -16,8 +16,11 @@ def getXP():
     XP=0
     return XP
  
-Lvl=getLevel()
-XP=getXP()
+def ReadStats():
+    print("You have %s Experience points" % getXP())
+    print("You are a %s Level Player" % getLevel())
+    return
+
 
 #The amount of xp to level up will increase by each level. Xp will need to be put into another file to save it.
 
@@ -53,6 +56,8 @@ def SelectOpponent(PokeDict):
     sleep(0.3)
 
     #generate list for your level
+    Lvl=getLevel()
+    XP=getXP()
     choices=[]
     for s in PokeDict:
         if s['level'] <= Lvl:
