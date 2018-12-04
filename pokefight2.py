@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from functions import *
-import time
+from time import sleep
 
 Lvl=getLevel()
 XP=getXP()
@@ -16,29 +16,29 @@ PokeDict = [
 ]
 
 ## --- Main Prog start --- ##
-print ("Welcome to the pokemon fighting simulator!")
-time.sleep(1)
-print ("Your are Level",Lvl)
-time.sleep(0.3)
-print ("Your XP is:",XP)
-time.sleep(0.3)
+print ("Welcome to the Trading Card fighting simulator!")
+sleep(1)
+ReadStats()
 
 #Main Menu #TODO make menu a function
 while True:
     try:
-        print("1) Load Pokedex from file")
-        print("2) Save current Pokedex")
-        print("3) Choose your opponent and  Fight!")
-        print("4) Exit!")
+        print("1) Load Character deck from file")
+        print("2) Save current Character deck")
+        print("3) Show your stats")
+        print("4) Choose your opponent and Fight!")
+        print("5) Exit!")
         choice = int(input('Make Your Choice:'))
         print("You selected: ",choice)
-        if    choice == 1:
+        if   choice == 1:
             PokeDict=LoadPokedex()
-        elif  choice == 2:
+        elif choice == 2:
             SavePokedex(PokeDict)
-        elif  choice == 3:
+        elif choice == 3:
+            ReadStats()
+        elif choice == 4:
             SelectOpponent(PokeDict)
-        elif  choice == 4:
+        elif choice == 5:
             exit()
         else:
           print("We didn't really get here!")

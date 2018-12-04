@@ -11,21 +11,21 @@
         "name": "Scarlet Macaw",
         "health": 160,
         "attack": 10,
-        "description": "The Undead Parrot"
+        "description": "The undead parrot"
     },
     {
         "level": 1,
         "name": "Mr Angry",
         "health": 180,
         "attack": 9,
-        "description": "The Neighbour with an grudge"
+        "description": "The neighbour with an grudge"
     },
     {
         "level": 3,
         "name": "Monsieur Pantalon Venteux",
         "health": 240,
         "attack": 11,
-        "description": "The Flatulant Galic chappie in the tower"
+        "description": "The flatulent Gallic chappie in the tower"
     },
     {
         "level": 3,
@@ -36,7 +36,7 @@
     },
     {
         "level": 3,
-        "name": "The Beast Caerbannog",
+        "name": "The Beast of Caerbannog",
         "health": 230,
         "attack": 12,
         "description": "The er... Rabbit?"
