@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-from functions import *
+#from functions import *
+import functions
 from time import sleep
 
-Lvl=getLevel()
-XP=getXP()
+Lvl=functions.getLevel()
+XP=functions.getXP()
 #Default Dict if we don't load one
 PokeDict = [
       { "level": 1, "name": "Bulbasaur", "health": 200, "attack": 8, "description": "The Grass Pokemon",},
@@ -18,7 +19,7 @@ PokeDict = [
 ## --- Main Prog start --- ##
 print ("Welcome to the Trading Card fighting simulator!")
 sleep(1)
-ReadStats()
+functions.ReadStats()
 
 #Main Menu #TODO make menu a function
 while True:
@@ -31,13 +32,13 @@ while True:
         choice = int(input('Make Your Choice:'))
         print("You selected: ",choice)
         if   choice == 1:
-            PokeDict=LoadPokedex()
+            PokeDict=functions.LoadPokedex()
         elif choice == 2:
-            SavePokedex(PokeDict)
+            functions.SavePokedex(PokeDict)
         elif choice == 3:
-            ReadStats()
+           functions.ReadStats()
         elif choice == 4:
-            SelectOpponent(PokeDict)
+            functions.SelectOpponent(PokeDict)
         elif choice == 5:
             exit()
         else:
