@@ -43,14 +43,14 @@ def LoadPokedex():
     return PokeDict
 
 def SavePokedex(PokeDict):
-    print("Saving Pokedex...")
+    print("Saving opponent file...")
     with open("PokeDict.json", "w") as write_file:
         json.dump(PokeDict, write_file, indent=4)
     sleep(2)
     return
 
 def SelectOpponent(PokeDict):
-    print ("Here you will choose your Pokemon")
+    print ("Here you will choose your Character")
 
     print ("-"*30)
     sleep(0.3)
