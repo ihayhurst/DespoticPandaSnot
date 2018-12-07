@@ -33,13 +33,20 @@ def menu():
             choice = int(input('Make Your Choice:'))
             print("You selected: ",choice)
             if   choice == 1:
-                PokeDict=functions.LoadPokedex()
+                PokeDict = functions.LoadPokedex()
             elif choice == 2:
                 functions.SavePokedex(PokeDict)
             elif choice == 3:
                 functions.ReadStats()
             elif choice == 4:
-                functions.SelectOpponent(PokeDict)
+                #functions.SelectOpponent(PokeDict)
+                try:
+                    PokeDict
+                except NameError:
+                    PokeDict = defaultPokeDict() 
+                    functions.SelectOpponent(PokeDict)
+                else:
+                    functions.SelectOpponent(PokeDict)
             elif choice == 5:
                 exit()
             else:
