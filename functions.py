@@ -9,12 +9,18 @@ import json
 
 #Variables
 def getLevel():
-    level=1
+    XP=getXP()
+    level=1+(XP // 10)
     return level
 
 def getXP():
     XP=0
+    XP=LoadHistory()
     return XP
+
+def setXP(XP):
+    SaveHistory(XP)
+    return
  
 def ReadStats():
     print("You have %s Experience points" % getXP())
@@ -47,6 +53,16 @@ def SavePokedex(PokeDict):
     with open("PokeDict.json", "w") as write_file:
         json.dump(PokeDict, write_file, indent=4)
     sleep(2)
+    return
+
+def LoadHistory():
+    with open(".characterFight.json", "r") as read_file:
+        XP = json.load(read_file)
+    return(XP)
+
+def SaveHistory(XP):
+    with open(".characterFight.json", "w") as write_file:
+        json.dump(XP, write_file, indent=4)
     return
 
 def SelectOpponent(PokeDict):
@@ -135,8 +151,14 @@ def SelectOpponent(PokeDict):
     #Detect Winner
     if MyPokemonHealth > EnemyPokemonHealth:
         print ("You win!")
+        XP=getXP()
+        XP += (getLevel()*3)
+        setXP(XP)
     else:
         print ("Your Opponent won!")    
+        XP=getXP()
+        XP += getLevel()
+        setXP(XP)
 
     print (rounds,"rounds")
     print ("Your Health is",MyPokemonHealth,"Your Opponents Health is",EnemyPokemonHealth)

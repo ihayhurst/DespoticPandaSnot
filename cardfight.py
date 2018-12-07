@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-#from functions import *
 import functions
 from time import sleep
 def main():
@@ -28,7 +27,7 @@ def menu():
             print("1) Load Character deck from file")
             print("2) Save current Character deck")
             print("3) Show your stats")
-            print("4) Choose your opponent and Fight!")
+            print("4) Choose your character and Fight!")
             print("5) Exit!")
             choice = int(input('Make Your Choice:'))
             print("You selected: ",choice)
@@ -39,7 +38,6 @@ def menu():
             elif choice == 3:
                 functions.ReadStats()
             elif choice == 4:
-                #functions.SelectOpponent(PokeDict)
                 try:
                     PokeDict
                 except NameError:
@@ -56,8 +54,9 @@ def menu():
         except IndexError:
             print ("Oh dear! That number isn't a choice. Please try again") 
 
-name="__main__"
+#name="__main__"
 print("Welcome to the Trading Card fighting simulator!")
+print("="*47)
 sleep(1)
 
 main()
