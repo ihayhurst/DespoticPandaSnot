@@ -27,9 +27,22 @@ def ReadStats():
     return
 
 
-def fight(health,attack):
+def fight(health,attack,strategy="S"):
     damage = 0
-    hit=random.randint(0,100)
+    try:
+        if strategy == "A":
+            print("Agressive Lunge")
+            hit=random.randint(0,200)
+            if hit <=100: hit = 0
+        elif strategy == "S":
+            print("Competent attack")
+            hit=random.randint(1,100)
+        elif strategy == "D":
+            print("Defensive parry")
+            hit=random.randint(30,60)
+    except NameError:
+        print("Doh!")
+
     damage = (hit * 0.02) * attack
     damage = int(damage)
     health = health - damage
@@ -66,11 +79,21 @@ def SaveHistory(XP):
     return
 
 
+def AttackStrategy():
+    while True:
+        try:
+            strategy = input("Press: A S D  for Agressive, Safe or Defensive strategy")
+            strategy = strategy.upper()
+            break
+        except ValueError:
+            print("Doh!")
+    return(strategy)
+
+
 def SelectOpponent(PokeDict):
     print ("Here you will choose your Character")
     print ("-"*35)
     sleep(0.3)
-
     #generate list for your level
     Lvl=getLevel()
     XP=getXP()
@@ -128,9 +151,9 @@ def SelectOpponent(PokeDict):
         if random.randint(0,1):
             #You attack
             print ("Round", rounds)
-            input("Press Return To Attack")
+            strategy = AttackStrategy()
             print ("Enemy health:")
-            EnemyPokemonHealth = fight(EnemyPokemonHealth,MyPokemonAttack)
+            EnemyPokemonHealth = fight(EnemyPokemonHealth,MyPokemonAttack,strategy)
             if EnemyPokemonHealth <= 0: break
             #Opponent attacks
             print ("Your Health")
@@ -144,7 +167,7 @@ def SelectOpponent(PokeDict):
             MyPokemonHealth = fight(MyPokemonHealth,EnemyPokemonAttack)
             if MyPokemonHealth <= 0: break
             #You attack
-            input("Press Return To Attack")
+            strategy = AttackStrategy()
             print ("Enemy Health")
             EnemyPokemonHealth = fight(EnemyPokemonHealth,MyPokemonAttack)
             if EnemyPokemonHealth <= 0: break
