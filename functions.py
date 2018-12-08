@@ -9,20 +9,23 @@ import json
 
 #Variables
 def getLevel():
-    level=1
+    XP=getXP()
+    level=1+(XP // 10)
     return level
 
 def getXP():
-    XP=0
+    XP=LoadHistory()
     return XP
+
+def setXP(XP):
+    SaveHistory(XP)
+    return
  
 def ReadStats():
     print("You have %s Experience points" % getXP())
     print("You are a %s Level Player" % getLevel())
     return
 
-
-#The amount of xp to level up will increase by each level. Xp will need to be put into another file to save it.
 
 def fight(health,attack):
     damage = 0
@@ -39,25 +42,40 @@ def LoadPokedex():
     print("Loading opponent file...")
     with open("PokeDict2.json", "r") as read_file:
          PokeDict = json.load(read_file)
-    sleep(2)
+    sleep(1)
     return PokeDict
 
+
 def SavePokedex(PokeDict):
-    print("Saving Pokedex...")
+    print("Saving opponent file...")
     with open("PokeDict.json", "w") as write_file:
         json.dump(PokeDict, write_file, indent=4)
-    sleep(2)
+    sleep(1)
     return
 
-def SelectOpponent(PokeDict):
-    print ("Here you will choose your Pokemon")
 
-    print ("-"*30)
+def LoadHistory():
+    with open(".characterFight.json", "r") as read_file:
+        XP = json.load(read_file)
+    return(XP)
+
+
+def SaveHistory(XP):
+    with open(".characterFight.json", "w") as write_file:
+        json.dump(XP, write_file, indent=4)
+    return
+
+
+def SelectOpponent(PokeDict):
+    print ("Here you will choose your Character")
+    print ("-"*35)
     sleep(0.3)
 
     #generate list for your level
     Lvl=getLevel()
     XP=getXP()
+    print("#debug XP=",XP)
+    print("#debug Lvl=",Lvl)
     choices=[]
     for s in PokeDict:
         if s['level'] <= Lvl:
@@ -135,8 +153,14 @@ def SelectOpponent(PokeDict):
     #Detect Winner
     if MyPokemonHealth > EnemyPokemonHealth:
         print ("You win!")
+        XP=getXP()
+        XP += (getLevel()*3)
+        setXP(XP)
     else:
         print ("Your Opponent won!")    
+        XP=getXP()
+        XP += getLevel()
+        setXP(XP)
 
     print (rounds,"rounds")
     print ("Your Health is",MyPokemonHealth,"Your Opponents Health is",EnemyPokemonHealth)

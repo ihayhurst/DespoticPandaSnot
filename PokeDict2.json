@@ -2,36 +2,64 @@
     {
         "level": 1,
         "name": "Norwegian Blue",
-        "health": 200,
+        "health": 100,
         "attack": 8,
         "description": "The Alive Parrot"
     },
     {
         "level": 1,
         "name": "Scarlet Macaw",
-        "health": 160,
+        "health": 60,
         "attack": 10,
         "description": "The undead parrot"
     },
     {
         "level": 1,
         "name": "Mr Angry",
-        "health": 180,
+        "health": 80,
         "attack": 9,
         "description": "The neighbour with an grudge"
+    },
+    {
+        "level": 2,
+        "name": "The Black Knight",
+        "health": 200,
+        "attack": 11,
+        "description": "A deficiency in limbs is no problem for him!"
+    },
+    {
+        "level": 2,
+        "name": "European Swalow",
+        "health": 160,
+        "attack": 13,
+        "description": "Unladen, he is formidable"
+    },
+    {
+        "level": 2,
+        "name": "",
+        "health": 180,
+        "attack": 12,
+        "description": ""
+    },
+    {
+        "level": 3,
+        "name": "Brian",
+        "health": 240,
+        "attack": 13,
+        "description": "He's not the Messiah"
     },
     {
         "level": 3,
         "name": "Monsieur Pantalon Venteux",
         "health": 240,
-        "attack": 11,
+        "attack": 14,
         "description": "The flatulent Gallic chappie in the tower"
     },
     {
         "level": 3,
         "name": "Brave Sir Robin",
         "health": 220,
-        "attack": 13,
+        "attack": 15,
         "description": "Showed adversity in the face of courage"
     },
     {
