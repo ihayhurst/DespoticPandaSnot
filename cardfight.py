@@ -32,7 +32,10 @@ def menu():
             choice = int(input('Make Your Choice:'))
             print("You selected: ",choice)
             if   choice == 1:
-                PokeDict = functions.LoadPokedex()
+                try:
+                    PokeDict = functions.LoadPokedex()
+                except ValueError:
+                    print(functions.bcolors.WARNING+"There was a problem loading your character deck!",functions.bcolors.ENDC)
             elif choice == 2:
                 functions.SavePokedex(PokeDict)
             elif choice == 3:
