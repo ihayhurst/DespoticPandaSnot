@@ -27,13 +27,27 @@ def ReadStats():
     return
 
 
-def fight(health,attack):
+def fight(health,attack,strategy="S"):
     damage = 0
-    hit=random.randint(0,100)
+    try:
+        if strategy == "A":
+            print("Makes an agressive lunge")
+            hit=random.randint(0,200)
+            if hit <=100:
+                 hit = 0
+                 print("..At nothing in particular")
+        elif strategy == "S":
+            print("advances,")
+            hit=random.randint(1,100)
+        elif strategy == "D":
+            print("uses a defensive parry")
+            hit=random.randint(30,60)
+    except NameError:
+        print("Doh!")
+    if hit >= 90: print("Bravo!")
     damage = (hit * 0.02) * attack
     damage = int(damage)
     health = health - damage
-    print (health)
     print ("Damage inflicted:",damage)
     return health
 
@@ -66,16 +80,24 @@ def SaveHistory(XP):
     return
 
 
+def AttackStrategy():
+    while True:
+        try:
+            strategy = input("Press: A S D  for Agressive, Safe or Defensive strategy")
+            strategy = strategy.upper()
+            if strategy in ['A','S','D']: break
+        except ValueError:
+            print("Doh!")
+    return(strategy)
+
+
 def SelectOpponent(PokeDict):
     print ("Here you will choose your Character")
     print ("-"*35)
     sleep(0.3)
-
     #generate list for your level
     Lvl=getLevel()
     XP=getXP()
-    print("#debug XP=",XP)
-    print("#debug Lvl=",Lvl)
     choices=[]
     for s in PokeDict:
         if s['level'] <= Lvl:
@@ -128,26 +150,26 @@ def SelectOpponent(PokeDict):
         if random.randint(0,1):
             #You attack
             print ("Round", rounds)
-            input("Press Return To Attack")
-            print ("Enemy health:")
-            EnemyPokemonHealth = fight(EnemyPokemonHealth,MyPokemonAttack)
+            print("You strike first. ",MyPokemon['name'])
+            strategy = AttackStrategy()
+            EnemyPokemonHealth = fight(EnemyPokemonHealth,MyPokemonAttack,strategy)
             if EnemyPokemonHealth <= 0: break
             #Opponent attacks
-            print ("Your Health")
             MyPokemonHealth = fight(MyPokemonHealth,EnemyPokemonAttack)
             if MyPokemonHealth <= 0: break
+            print("Your Health: ",MyPokemonHealth," Opponent Health:",EnemyPokemonHealth)
             print ("-"*30)
         else:
             #Opponent Attacks
             print ("Round", rounds)
-            print ("Your Health")
+            print ("Your opponent, ",EnemyPokemon['name'])
             MyPokemonHealth = fight(MyPokemonHealth,EnemyPokemonAttack)
             if MyPokemonHealth <= 0: break
             #You attack
-            input("Press Return To Attack")
-            print ("Enemy Health")
-            EnemyPokemonHealth = fight(EnemyPokemonHealth,MyPokemonAttack)
+            strategy = AttackStrategy()
+            EnemyPokemonHealth = fight(EnemyPokemonHealth,MyPokemonAttack,strategy)
             if EnemyPokemonHealth <= 0: break
+            print("Your Health: ",MyPokemonHealth," Opponent Health:",EnemyPokemonHealth)
             print ("-"*30)
 
     #Detect Winner
