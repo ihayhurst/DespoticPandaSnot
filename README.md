@@ -9,7 +9,7 @@ Select 1 to load the character file (the default in the code is very dull)
 Select 4 to pich a character and battle. 
 
 ### TODO:
-  - [x ] Break out into functions
+  - [x] Break out into functions
   - [x] Read Deck from json file
   - [x] Spit out default deck as tempate
   - [x] Read Level and experience points from .pokefightlevel file
